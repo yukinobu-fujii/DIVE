@@ -1,0 +1,36 @@
+.contact{
+  border-collapse: collapse;
+}
+.contact tr{
+  height: 7rem;
+}
+.contact th{
+  width: 150px;
+  background-color: #fff;
+  color: #4D4D4D;
+}
+.contact input[type="text"]{
+  width: 480px;
+}
+.contact textarea[type="text"]{
+  width: 480px;
+}
+.contact tr:last-child th {
+  border-color: #B1B1B1;
+}
+.contact button{
+background-color: #008B8B;
+color: #fff;
+font-size: 3rem;
+padding: 10px;
+}
+.send{
+text-align: center;
+padding-bottom: 100px;
+}
+
+.contact button:hover{
+opacity: 0.5;
+filter: alpha(opacity=50);
+-moz-opacity:0.5;
+}
